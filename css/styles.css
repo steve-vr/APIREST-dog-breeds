@@ -1,0 +1,30 @@
+/*Configuración global*/
+html {
+ box-sizing: border-box;
+}
+ *, *:before, *:after {
+ box-sizing: inherit;
+} */
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.body__background{
+    background-color: #72ED94;
+}
+
+/*Version mobil*/
+.header__text{
+    background-color: #000;
+    color: #FFF;
+    padding: 0.5em 0em 0.5em 0em;
+    text-align: center;
+}
