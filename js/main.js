@@ -47,9 +47,10 @@ function seleccionarBreedsSelector(breeds){
         `;        
     }); 
     charactersDog.innerHTML=`
-    <p>Raza: ${breeds[0].breeds[0].name}</p>
-    <p>Vida: ${breeds[0].breeds[0].life_span}</p>
-    <p>Comportamiento: ${breeds[0].breeds[0].temperament}</p>
+    <p class="p_bold">Caracteristicas:</p>
+    <p><p class="p_bold">Raza</p> ${breeds[0].breeds[0].name}</p>
+    <p><p class="p_bold">Vida</p> ${breeds[0].breeds[0].life_span}</p>
+    <p><p class="p_bold">Comportamiento</p> ${breeds[0].breeds[0].temperament}</p>
     `;   
 }
 

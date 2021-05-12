@@ -46,9 +46,11 @@ select {
 
 img {
     width: 80%;
+    border-radius: 15px;
 }
-
-/*Version mobil*/
+.p_bold{
+    font-weight: bold;
+}
 .header__text{
     background-color: #000;
     color: #FFF;
@@ -56,6 +58,18 @@ img {
     text-align: center;
 }
 
+/*Version mobil*/
+
 .main__aling{
-    margin: 4em 0em 4em 0em;
+    margin: 1.2em 0em 1.2em 0em;
+    font-size: 15px;
+}
+
+.main__characters{
+    text-align: left;
+    margin: 2em 2em 0em 2em;
+    font-size: 14px;
+    background-color: #ffe4c2;
+    border-radius: 15px;
+    padding: 1em 1em 1em 1em;
 }
