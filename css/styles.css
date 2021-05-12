@@ -44,6 +44,9 @@ select {
     border: unset;
 }
 
+img {
+    width: 80%;
+}
 
 /*Version mobil*/
 .header__text{
