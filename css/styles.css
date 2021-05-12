@@ -67,9 +67,22 @@ img {
 
 .main__characters{
     text-align: left;
-    margin: 2em 2em 0em 2em;
+    margin: 2em 2em 2em 2em;
     font-size: 14px;
     background-color: #ffe4c2;
     border-radius: 15px;
     padding: 1em 1em 1em 1em;
+}
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px){
+    img{
+        width: 45%;
+        height: 370px;
+    }
+    .main__characters { 
+        margin: 2em 23em 2em 23em;
+    }
 }
